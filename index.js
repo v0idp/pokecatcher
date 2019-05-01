@@ -21,10 +21,6 @@ let catchPokemon = function(msg, name) {
     if (name) setTimeout(() => msg.channel.send('p!catch ' + name), config.catch_delay);
 }
 
-let notifyPokemon = function(msg, name) {
-    if (name) setTimeout(() => msg.channel.send('Pokémon: ' + name), 100);
-}
-
 client.on("message", (msg) => {
     if (msg.guild && msg.author.id === '365975655608745985' && config.guild_whitelist.includes(msg.guild.id)) {
         if (Array.isArray(msg.embeds) && msg.embeds.length >= 1) {
@@ -40,13 +36,11 @@ client.on("message", (msg) => {
                                     catchPokemon(msg, name);
                                 } else {
                                     logPokemon(`Pokémon not in whitelist (${name})`);
-                                    notifyPokemon(msg, name);
                                 }
                             } else {
                                 logPokemon(`A wild ${name} has appeared!`);
                                 catchPokemon(msg, name);
                             }
-                            
                     }).catch(console.error);
                 }
             }

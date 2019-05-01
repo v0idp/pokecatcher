@@ -18,6 +18,4 @@ COPY * $APP/
 
 WORKDIR $APP
 
-EXPOSE 5060
-
 CMD [ "pm2-runtime", "index.js" ]
