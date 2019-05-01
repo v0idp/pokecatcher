@@ -1,0 +1,12 @@
+{
+  "name": "pokecatcher",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "voidp",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "node-fetch": "^2.3.0"
+  }
+}

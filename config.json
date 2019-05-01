@@ -1,0 +1,20 @@
+{
+    "token": "",
+    "guild_whitelist": [""],
+    "farm": false,
+    "farm_channel": "",
+    "farm_delay": 5000,
+    "catch_delay": 100,
+    "pokemon_filter": false,
+    "pokemon_whitelist": ["articuno", "zapdos", "moltres", "mewtwo", "raikou", "entei", "suicune", "lugia", "ho-oh", "regirock",
+        "regice", "registeel", "latias", "latios", "kyogre", "groudon", "rayquaza", "uxie", "mesprit", "azelf",
+        "dialga", "palkia", "heatran", "regigigas", "giratina", "cresselia", "cobalion", "terrakion", "virizion",
+        "tornadus", "thundurus", "reshiram", "zekrom", "landorus", "kyurem", "xerneas", "yveltal", "zygarde",
+        "type: null", "silvally", "tapu koko", "tapu lele", "tapu bulu", "tapu fini", "cosmog", "cosmoem",
+        "solgaleo", "lunala", "necrozma", "melmetal (mega mewtwo x", "mega mewtwo y", "mega latias",
+        "mega latios", "primal kyogre", "primal groudon", "mega rayquaza)  Mythical: Mew", "celebi",
+        "jirachi", "deoxys", "phione", "manaphy", "darkrai", "shaymin", "arceus", "victini", "keldeo",
+        "meloetta", "genesect", "diancie", "hoopa", "volcanion", "magearna", "marshadow", "zeraora",
+        "meltan", "mega diancie", "UB: Nihilego", "buzzwole", "pheromosa", "xurkitree", "celesteela",
+        "kartana", "guzzlord", "poipole", "naganadel", "stakataka", "blacephalon"]
+}
