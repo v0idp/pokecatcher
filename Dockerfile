@@ -14,10 +14,10 @@ RUN cd /tmp && npm install --loglevel=warn \
   && mkdir -p $APP \
   && mv /tmp/node_modules $APP
 
-COPY src $APP/src
+COPY * $APP/
 
 WORKDIR $APP
 
 EXPOSE 5060
 
-CMD [ "pm2-runtime", "src/index.js" ]
+CMD [ "pm2-runtime", "index.js" ]
